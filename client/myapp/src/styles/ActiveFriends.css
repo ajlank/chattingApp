@@ -1,0 +1,42 @@
+.active-image{
+    height:100%;
+    width:100%;
+}
+.active-friend{
+    display:flex;
+  
+}
+.active-friend1{
+ position:relative;  
+ margin-left:0.5rem;
+
+}
+.online-dot{
+    height:10px;
+    background-color:rgb(3, 255, 3);
+    width:10px;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    left:1.7rem;
+}
+.search input[type="text"]{
+    background-color:transparent;
+}
+.lala::-webkit-scrollbar { 
+    display: none;  
+}
+
+.col-8 .name{
+    position:relative;
+}
+.onlinedot{
+    
+    height:10px;
+    background-color:rgb(3, 255, 3);
+    width:10px;
+    border-radius:50%;
+    position:absolute;
+    left:-9px;
+    bottom:4px;
+}

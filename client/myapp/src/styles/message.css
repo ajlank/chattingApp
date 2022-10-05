@@ -1,0 +1,63 @@
+.message-show .fdmsg .image img{
+ height:100%;
+ width:100%;
+ 
+}
+.message-show .fdmsg{
+    display:flex;
+}
+.message-show .mymsg img{
+    width:200px;
+    height:200px;
+ 
+}
+.message-show .fdmsg .textmsg{
+    padding-left:0.5rem;
+    
+}
+.message-show .fdmsg .textmsg p{
+    background-color:#41425359;
+   
+}
+.message-show .fdmsg .textmsg span{
+    font-size:12px;
+    color:#76a218;
+    
+}
+.message-show .mymsg .textmsg p{
+    background-color:#41425359;
+    padding:3px;
+}
+
+.message-show .mymsg .textmsg span{
+    font-size:10px;
+    color:#76a218;
+    position:relative;
+    bottom:11px;
+}
+.message-show .mymsg{
+    display:flex;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+.message-show .mymsg .textmsg{
+    text-align:right;
+}
+.message-show .fdmsg .textmsg p{
+    padding:3px;
+}
+.deleteBtn{
+    border:none;
+    background:transparent;
+    color:red;
+    position:relative;
+    bottom:2.9rem;
+    right:5.8rem;
+    font-size:1.3rem;
+    transition:.4s linear;
+    visibility: hidden;
+ 
+}
+.message-show .mymsg .textmsg:hover .deleteBtn{
+    visibility:visible;
+}

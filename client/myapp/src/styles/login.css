@@ -1,0 +1,89 @@
+.imageHolder{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:2px solid #eee;    
+    box-shadow:0px 0px 0px rgb(73, 71, 71);
+}
+.imageHolder img{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.fileHandle{
+    display:flex;
+    align-items:center;
+    
+}
+.uploadLabel{
+  position:relative;
+  left:1rem;
+  font-weight:550;
+  cursor: pointer;
+}
+.signUpdiv{
+ background-color:#2D8FC8;
+ height:100vh;
+ width:100%;
+}
+.form-div{
+  
+    height:620px;
+    width:500px;
+    margin:0 auto;
+    padding:5% 8%;
+    text-align:center;
+    background-color:#fafafa;
+    position:relative;
+    top:3.1rem;
+    box-shadow:5px 2px 8px #9ea29f,-1px -1px 5px #9ea29f;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+}
+.form-div .div1,.div2,.div3{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:18px;
+}
+.form-div label{
+    position:relative;
+    right:6px;
+    font-weight:320;
+}
+.form-div input[type="email"]{
+  margin-left:30px;
+  width:220px;
+}
+.form-div input[type="text"]{
+    width:220px;
+}
+.form-div input[type="password"]{
+    width:220px;
+    margin-left:3px;
+}
+.form-div input[type="text"],input[type="email"],input[type="password"]{
+    padding:6px;
+    font-weight:422;
+    border:none;
+    border-bottom:1px solid black;
+    position:relative;
+    bottom:15px;
+}
+.signbtn{
+    border:none;
+    padding:5px 33px;
+    box-shadow:2px 2px 3px #9ea29f,-2px -1px 4px #9ea29f;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    color:black;
+    font-weight:444;
+}
+.form-div .linkdiv{
+    display:flex;
+    flex-direction:column;
+    margin-top:1rem;
+}

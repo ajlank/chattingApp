@@ -1,0 +1,93 @@
+.header .image-name .image img{
+    height:100%;
+    width:100%;
+    object-fit: cover;   
+}
+.header{
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #141b2bf0;
+}
+.col-8{
+    border-right:1px solid #141b2bf0;
+}
+
+.messaging-body{
+     height:510px;
+     overflow-y:scroll;
+     width:100%;
+}
+.messaging-body .friend-mg-div .friend-msg .image img{
+    height:100%;
+    width:100%;
+    
+}
+.messaging-body .friend-mg-div .friend-msg{
+    display:flex;
+    align-items:center;
+}
+.messaging-body .friend-mg-div .friend-msg .fd-msg{
+    margin-left:0.7rem;
+    color:white;
+}
+.messaging-body .friend-mg-div .friend-msg .fd-msg span{
+     color: rgb(186, 211, 162);
+     position:relative;
+     right:3px;
+     font-size:11px;
+} 
+.messaging-body .friend-mg-div .friend-msg .fd-msg p{ 
+  position:relative;
+  top:16px;
+  background-color: rgba(43,51,85,.568);
+  padding:8px;
+  
+}
+.inner-msg-div{
+    padding:2% 1%;
+}
+.my-msgs{
+    display:flex;
+    justify-content:flex-end;
+}
+.my-msgs .my-msg p{
+    background-color: rgba(43,51,85,.568);
+    padding:8px;
+    position: relative;
+    right:0.3rem;
+}
+.my-msgs .my-msg span{
+    position: relative;
+    left:2.8rem;
+    color:rgb(186, 211, 162);
+    font-size:11px;
+    bottom:16px;
+}
+.messaging-body::-webkit-scrollbar{
+    display:none;
+}
+.my-msg-div .my-msgs .my-msg img{
+    width:220px;
+    height:270px;
+    margin-right:0px;
+    border-radius:5px;
+    overflow:hidden;
+    object-fit:cover;
+}
+.friend-msg .fd-msg img{
+    width:220px;
+    height:270px;
+    border-radius:5px;
+    overflow:hidden;
+    object-fit:cover;
+}
+#dot:checked~ .row .col-4{
+    display:none;
+}
+#dot:checked~ .row .col-8{
+    width:100%;
+}
+.inner-msg-div::-webkit-scrollbar{
+    display: none;
+}
+

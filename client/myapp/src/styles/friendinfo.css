@@ -1,0 +1,64 @@
+.friend-info {
+    height:100%;
+    overflow:hidden;
+    }
+    
+    .friend-info .image-name .image img{
+        height:100%;
+        width:100%;
+        
+    }
+    .friend-info .image-name .image{
+        margin:0 auto;
+    }
+    .gallery{
+        height:450px;
+        width:370px;
+        display:grid;
+        grid-template-columns:auto auto;
+        gap:0.5rem; 
+        overflow-Y:auto;
+        cursor: pointer;
+        margin-top:1.8rem;
+    }
+    
+    .gallery img{
+        height:100%;
+        width:100%;
+    } 
+    .friend-info .image-name{
+      display:flex;
+      justify-content:center;
+      flex-direction:column;  
+      text-align:center;
+    }
+    .others .custom-chat{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        cursor: pointer;
+    }
+    .others .privacy{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        cursor: pointer;
+    }
+    .others .media{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      cursor: pointer;
+    }
+    .friend-info .others{
+     position:relative;
+     top:0.8rem
+    }
+    .friend-info .image-name .name h6{
+     position:relative;
+     bottom:0.8rem;
+    }
+    .friend-info .image-name .active-user p{
+        color:rgb(10, 219, 10);
+        font-weight: 600;
+    }
