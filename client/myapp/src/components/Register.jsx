@@ -45,6 +45,7 @@ const Register = () => {
     navigate("/register")
     })
     },[])
+    
    const registerHandle=(e)=>{
     e.preventDefault();
     const formData=new FormData();
